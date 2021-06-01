@@ -137,9 +137,7 @@ nav a:hover
 
 }
 
-
 /* Corps */
-
 section
 {
     display: flex;
@@ -205,4 +203,78 @@ aside
 aside img
 {
     margin-right: 5px;
+}
+/* Footer */
+
+footer
+{
+    display: flex;
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+#sec-footer{
+    width: auto;
+}
+#cont-actu
+ {
+    width: auto;
+    height: 200px;
+    margin:auto;
+    margin-top: 10px;
+    background-color:#8bc0a8;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px #fff solid;
+}
+#fh1{
+    font-size: 30px ;
+    font-weight: bolder;
+    color: blue;
+}
+
+#listes_fac
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+#cont-fac
+ {
+    width: 500px;
+    height: 200px;
+    margin:auto;
+    margin-top: 10px;
+    background-color:#71ac90;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px #fff solid;
+    float: right;
+}
+li{
+    font-size: 20px;
+    color: rgb(20, 24, 24);
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+#cont-contact
+ {
+    width: 500px;
+    height: 200px;
+    margin:auto;
+    margin-top: 10px;
+    background-color:#4b8b6e;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px #fff solid;
+    float: right;
 }
